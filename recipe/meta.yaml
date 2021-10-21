@@ -1,4 +1,4 @@
-{% set version = "0.6-9" %}
+{% set version = "0.6-10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/relations_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/relations/relations_{{ version }}.tar.gz
-  sha256: d295501181e517dbbcd6389aa83ff3957a29e661c69f088e4d6acc24b9e2046f
+  sha256: b660b0a06c276bf119808e7f516fd8bc190f77cf6b557dd927937fb696d5068e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,10 +42,9 @@ test:
 about:
   home: https://CRAN.R-project.org/package=relations
   license: GPL-2
-  summary: Data structures and algorithms for k-ary relations with arbitrary domains, featuring
-    relational algebra, predicate functions, and fitters for consensus relations.
+  summary: Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
