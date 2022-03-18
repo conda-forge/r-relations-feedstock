@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=relations
 
 Package license: GPL-2
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relations-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relations-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5359&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-relations-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5359&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-relations-feedstock?branchName=main">
       </a>
     </td>
   </tr>
