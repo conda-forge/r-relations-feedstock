@@ -1,11 +1,11 @@
-About r-relations
-=================
+About r-relations-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relations-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=relations
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-relations-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data structures and algorithms for k-ary relations with arbitrary domains, featuring relational algebra, predicate functions, and fitters for consensus relations.
 
