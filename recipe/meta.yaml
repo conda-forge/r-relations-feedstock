@@ -1,4 +1,4 @@
-{% set version = "0.6-13" %}
+{% set version = "0.6-14" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/relations_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/relations/relations_{{ version }}.tar.gz
-  sha256: f859c336fb0c4a2df7f294b33d1d04f95c6988e5e76933e2e70bf291d904d9da
+  sha256: 024fb2b5f572018777119eca9b9b6eb258053befc66f8f57de54d06bd8f2d89c
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
